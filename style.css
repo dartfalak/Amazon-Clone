@@ -96,7 +96,7 @@
 
 .hero-sec {
   background-image:url(image2.jpg);
-  height:410px ;
+  height:510px ;
   background-size: cover;
   align-items: flex-end;
 
@@ -108,9 +108,10 @@
   height: 40px;
   display: flex;
   align-items:center;
-  justify-content:center ;
+  justify-content:center;
   font-size: 0.85rem;
-  width: 80%;
+  width: 100%;
+  margin-top: -60px;
 }
 
 .shop-sec {
@@ -208,7 +209,7 @@ body {
 
 .shop-box img {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .shop-box h3 {
@@ -216,5 +217,82 @@ body {
   font-size: 16px;
 }
 
+.shop-image {
+
+  height: 200px;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+.panel-last {
+  background-color:#37475a;
+  color:white;
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:0.85rem
+}
 
 
+ .panel-last2 {
+   background-color:#37475a;  
+    color:white;
+   height:300px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+
+ ul {
+  margin-top: 10px;
+ }
+
+ ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: white;
+ }
+
+ .panel-last3 {
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white ;
+  height:90px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .logo1 {
+    
+    background-size: cover;
+    height: 80px;
+    width: 250px;
+
+ }
+
+  .panel-last4 {
+    background-color: #0f1111;
+    color:white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /*display:flex;
+    justify-content:center;
+    align-items:center;*/
+    
+
+  }
+
+  .pages {
+  
+    padding-top: 25px;
+  }
+
+  .copyright {
+    padding-top: 5px;
+  }
