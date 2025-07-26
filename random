@@ -37,3 +37,13 @@ testing 1-2-3
 </body>
 </html>
 
+ 
+    .nav1 { 
+    color: bisque;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    margin-top: 10px;
+} */
+
+
+   p
