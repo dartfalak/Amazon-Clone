@@ -46,4 +46,97 @@ testing 1-2-3
 } */
 
 
-   p
+    <body class="custom-bg">
+  
+  <div class="wave-top">
+    <svg viewBox="0 0 1440 100" width="100%" height="100" preserveAspectRatio="none">
+      <path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#fff"/>
+    </svg>
+  </div>
+
+     <div class="slider-container">
+  <input type="radio" name="slider" id="slide1" checked>
+  <input type="radio" name="slider" id="slide2">
+  <input type="radio" name="slider" id="slide3">
+  <input type="radio" name="slider" id="slide4">
+  <input type="radio" name="slider" id="slide5">
+  <input type="radio" name="slider" id="slide6">
+
+  <div class="slider">
+    <div class="slides">
+      <div class="slide s1">
+        <img src="hepta.png" alt="Image 1">
+      </div>
+      <div class="slide s2">
+        <img src="img.webp" alt="Image 2">
+      </div>
+      <div class="slide s3">
+        <img src="slider-3.jpg.webp" alt="Image 3">
+      </div>
+      <div class="slide s4">
+        <img src="slider-4.jpg (1).webp" alt="Image 4">
+      </div>
+      <div class="slide s5">
+        <img src="slider-5.jpg.webp" alt="Image 5">
+      </div>
+      <div class="slide s6">
+        <img src="slider-6.jpg.webp" alt="Image 6">
+      </div>
+    </div>
+    <!-- Dots -->
+    <div class="dots">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+      <label for="slide5"></label>
+      <label for="slide6"></label>
+    </div>
+  </div>
+
+  <!-- Navigation chevrons OUTSIDE the image box -->
+  <label for="slide6" class="nav left left1"><span>&#x2039;</span></label>
+  <label for="slide2" class="nav right right1"><span>&#x203A;</span></label>
+  <label for="slide1" class="nav left left2"><span>&#x2039;</span></label>
+  <label for="slide3" class="nav right right2"><span>&#x203A;</span></label>
+  <label for="slide2" class="nav left left3"><span>&#x2039;</span></label>
+  <label for="slide4" class="nav right right3"><span>&#x203A;</span></label>
+  <label for="slide3" class="nav left left4"><span>&#x2039;</span></label>
+  <label for="slide5" class="nav right right4"><span>&#x203A;</span></label>
+  <label for="slide4" class="nav left left5"><span>&#x2039;</span></label>
+  <label for="slide6" class="nav right right5"><span>&#x203A;</span></label>
+  <label for="slide5" class="nav left left6"><span>&#x2039;</span></label>
+  <label for="slide1" class="nav right right6"><span>&#x203A;</span></label>
+</div>
+
+ <div class="tilted-bg"></div>
+<div class="slider-container">
+ 
+</div>
+
+
+.slider-container {
+  position: relative;
+  z-index: 2;
+}
+
+.tilted-bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;      
+  height: 400px;
+  background: #ddd;  
+  z-index: 1;
+
+  
+  clip-path: polygon(
+    0 10px,     
+    100% 0,     
+    100% 100%,  
+    0 100%      
+  );
+
+  border-radius: 8px; 
+}
